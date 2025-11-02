@@ -125,7 +125,7 @@ class Scanner {
 			case '"':
 				string();
 				break;
-			case '0':
+			case 'o':
 				if (match('r')) {
 					addToken(OR);
 				}
