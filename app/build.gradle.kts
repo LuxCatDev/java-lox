@@ -37,6 +37,11 @@ application {
     mainClass = "com.interpreter.lox.Lox"
 }
 
+// Source - https://stackoverflow.com/a
+// Posted by JB Nizet, modified by community. See post 'Timeline' for change history
+// Retrieved 2025-11-07, License - CC BY-SA 4.0
+
+
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
